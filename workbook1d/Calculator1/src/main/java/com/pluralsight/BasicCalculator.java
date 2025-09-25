@@ -33,7 +33,7 @@ public class BasicCalculator {
         System.out.println("Deviding "+num1+" and "+num2+": "+(num1/num2));
     }
     else{
-        System.out.println("You did not choose one of the choices.");
+        System.out.println("You did not choose one of the choices.  ");
     }
     }
 }
