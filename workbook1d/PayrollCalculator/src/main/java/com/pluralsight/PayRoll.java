@@ -16,7 +16,7 @@ public class PayRoll {
         System.out.printf("Enter your hours worked: ");
         float hrWorked = scanner.nextFloat();
 
-        System.out.printf(EmployeeName + " gross pay is: " + (hrRate*hrWorked));
+        System.out.printf(EmployeeName + " gross pay is:  " + (hrRate*hrWorked));
 
     }
 }
