@@ -9,14 +9,14 @@ public class Main {
         double basicCost=29.99;
         double optionsCost = 0.00;
         double underageSurcharge = 0.00;
-
+        double totalcost = 0.00;
         System.out.printf("Please give me your pickup date: ");
         String date = scanner.nextLine();
 
         System.out.printf("electronic toll tag: ");
         String tollTage = scanner.nextLine();
         if(tollTage.equalsIgnoreCase("yes")){
-            optionsCost+=3.95;
+            optionsCost += 3.95;
         }
 
         System.out.printf("Do you want GPS: ");
@@ -42,7 +42,7 @@ public class Main {
         if(age<25){
             underageSurcharge = (basicCost*0.30);
         }
-        double totalcost = basicCost +optionsCost +underageSurcharge;
+        totalcost = basicCost +optionsCost +underageSurcharge;
         System.out.printf("Pickup date: %s%n", date);
         System.out.printf("Base cost:       $%.2f%n", basicCost);
         System.out.printf("Options cost:    $%.2f%n", optionsCost);
