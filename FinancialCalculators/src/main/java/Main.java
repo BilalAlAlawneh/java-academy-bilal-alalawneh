@@ -85,7 +85,7 @@ public class Main {
         years*=12;
 
         double PV = monthlyPayout * (1-Math.pow(1 + interest, -years))  / interest;
-        System.out.printf("$%.2f will need to be in your account today%n", PV);
+        System.out.printf("$%.2f Will need to be in your account today%n", PV);
 
         input.nextLine();
 
