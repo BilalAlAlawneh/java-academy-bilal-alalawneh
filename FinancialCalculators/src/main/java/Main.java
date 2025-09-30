@@ -9,7 +9,7 @@ public class Main {
 
         while(!choice.equals("exit")) {
 
-            System.out.printf("Please choose 1 for Mortgage Calculator, 2 for Future Value Calculator,%nand 3 for Future Value Calculator: (Or type exit to exit) ");
+            System.out.printf("Please choose 1 for Mortgage Calculator, 2 for Future Value Calculator,%nand 3 for Present Value Calculator: (Or type exit to exit) ");
             choice = scanner.nextLine();
             System.out.println();
 
