@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.sql.SQLOutput;
+
 public class CellPhone {
     private int serialNumber;
     private String model;
@@ -33,6 +35,10 @@ public class CellPhone {
 
     public String getOwner() {
         return this.owner;
+    }
+
+    public void dial(String phoneNumber){
+        System.out.println(owner + "'s phone is calling " + phoneNumber);
     }
 
 }
